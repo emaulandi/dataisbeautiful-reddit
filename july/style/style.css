@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin: auto;
+	width: 960px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'Cabin Sketch', Arial;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	padding: 25px;
+	padding-top: 0;
+}
+
+.footer {
+	/*background-color: #f2f2f2;*/
+	padding: 25px;
+}
+
+.footer p {
+	font-size: 11px;
+}
+
+.niceLink {
+	background:lightgrey;
+	font-weight: bold;
+	text-decoration:none;
+	color: #404040;
+	padding: 5px 10px;
+}
+
+.niceLink:hover {
+	background:#feeb97;
+	color: #b3b3b3;
+}
+.niceLink:visited{ text-decoration:none; }
+
+.smallLink {
+	padding: 2px 5px;
+}
+
+.button {
+	border: none;
+	padding: 3px 7px;
+	margin-left: 3px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Open Sans';
+}
+
+
+hr.line{
+  margin: 20px auto;
+  width: 50%;
+  height: 2px;
+  background-color: lightgrey;
+  border: none; /*on supprime le style par défaut*/
+}
+
+hr.block{
+  margin: 0 0;
+  height: 0;
+  background-color: white;
+  border: none; /*on supprime le style par défaut*/
+}
+
+.tooltip {
+	position: absolute;
+	pointer-events: none;
+	font-size: 12px;
+	min-width: 80px;
+	height: auto;
+	background: none repeat scroll 0 0 #ffffff;
+	border: 1px solid grey;
+	padding: 8px;
+	text-align: center;
+}
